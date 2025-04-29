@@ -115,7 +115,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#2c3e50', // Dark theme background
+    backgroundColor: '#2c3e50', 
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
@@ -129,41 +129,41 @@ const styles = StyleSheet.create({
   },
   input: {
     width: '100%',
-    borderColor: '#34495e', // Dark border
+    borderColor: '#34495e',
     borderWidth: 1,
     padding: 12,
     marginVertical: 10,
-    borderRadius: 20, // Rounded corners
-    backgroundColor: '#ecf0f1', // Light input background
-    color: '#2c3e50', // Dark text color
+    borderRadius: 20, 
+    backgroundColor: '#ecf0f1', 
+    color: '#2c3e50', 
   },
   button: {
-    backgroundColor: '#1abc9c', // Teal button color
-    paddingVertical: 16, // Increased height
-    paddingHorizontal: 24, // Increased width
-    borderRadius: 50, // Fully rounded corners
+    backgroundColor: '#1abc9c', 
+    paddingVertical: 16, 
+    paddingHorizontal: 24, 
+    borderRadius: 50, 
     width: '80%',
     alignItems: 'center',
     marginTop: 10,
-    elevation: 5, // Shadow for Android
-    shadowColor: '#000', // Shadow for iOS
+    elevation: 5, 
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.3,
     shadowRadius: 5,
   },
   buttonText: {
-    color: '#ffffff', // White button text
-    fontWeight: '600', // Medium weight
-    fontSize: 18, // Larger font for better readability
+    color: '#ffffff', 
+    fontWeight: '600', 
+    fontSize: 18, 
   },
   link: {
-    color: '#e74c3c', // Red links
+    color: '#e74c3c', 
     marginTop: 15,
     textDecorationLine: 'underline',
   },
   title: {
     fontSize: 24,
     marginBottom: 20,
-    color: '#ecf0f1', // Light title text
+    color: '#ecf0f1', 
   },
 });
