@@ -115,7 +115,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f8f8f8',
+    backgroundColor: '#2c3e50', // Dark theme background
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
@@ -129,32 +129,41 @@ const styles = StyleSheet.create({
   },
   input: {
     width: '100%',
-    borderColor: '#ccc',
+    borderColor: '#34495e', // Dark border
     borderWidth: 1,
     padding: 12,
     marginVertical: 10,
-    borderRadius: 8,
-    backgroundColor: '#fff',
+    borderRadius: 20, // Rounded corners
+    backgroundColor: '#ecf0f1', // Light input background
+    color: '#2c3e50', // Dark text color
   },
   button: {
-    backgroundColor: '#3498db',
-    padding: 12,
-    borderRadius: 8,
-    width: '100%',
+    backgroundColor: '#1abc9c', // Teal button color
+    paddingVertical: 16, // Increased height
+    paddingHorizontal: 24, // Increased width
+    borderRadius: 50, // Fully rounded corners
+    width: '80%',
     alignItems: 'center',
     marginTop: 10,
+    elevation: 5, // Shadow for Android
+    shadowColor: '#000', // Shadow for iOS
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
   },
   buttonText: {
-    color: '#fff',
-    fontWeight: 'bold',
+    color: '#ffffff', // White button text
+    fontWeight: '600', // Medium weight
+    fontSize: 18, // Larger font for better readability
   },
   link: {
-    color: '#3498db',
+    color: '#e74c3c', // Red links
     marginTop: 15,
     textDecorationLine: 'underline',
   },
   title: {
     fontSize: 24,
     marginBottom: 20,
+    color: '#ecf0f1', // Light title text
   },
 });
